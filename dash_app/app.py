@@ -23,6 +23,7 @@ app.layout = html.Div([
     html.Div([
         html.H4('Instant Fifa  Ranking', style={'margin-bottom': '0px', 'color': 'white'}),
         html.Hr(),
+
     
     dash_table.DataTable(
         data=data.to_dict('records'),
